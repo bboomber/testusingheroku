@@ -1,15 +1,19 @@
 import Head from 'next/head'
+import 'semantic-ui-css/semantic.min.css'
 import styles from '../styles/Home.module.css'
+import Sec1Part from '../component/sec1'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>test heroku</title>
+        <title>Slot Page</title>
       </Head>
 
       <main className={styles.main}>
-        <h1>test next.js</h1>
+        <div id="sec1" className={styles.sec1}><Sec1Part /></div>
+        <div id="sec2">hi</div>
+        <div id="sec3">hi</div>
       </main>
 
       <footer className={styles.footer}>

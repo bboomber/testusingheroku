@@ -15,7 +15,6 @@ export default function Home() {
       <main className={styles.main}>
         <div id="sec1"><Sec1Part /></div>
         <div id="sec2"><Sec2Part /></div>
-        <div id="sec3"><Sec3Part /></div>
       </main>
 
       <footer className={styles.footer}>

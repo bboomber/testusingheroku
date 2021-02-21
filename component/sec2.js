@@ -36,7 +36,7 @@ class Sec2Part extends React.Component{
               <li>ส่วนลด GrabMart มูลค่า 100 บาท (ขั้นต่ำ 320 บาท | จ่ายด้วย GrabPlay เท่านั้น)</li>
               <li>ส่วนลด GRabExpress (Bike) 50% ลดสูงสุด45 บาท</li>
               <li>ส่วนลด JustGrab มูลค่า 30 บาท</li>
-              <p style={{textAlign: "center", backgroundColor: "#eeeeee",borderRadius: "15px", padding: "5px", marginTop: "20px"}}>*เป็นไม่ตามเงื่อนไขที่บริษัทฯ กำหนด</p>
+              <p style={{textAlign: "center", backgroundColor: "#eeeeee",borderRadius: "15px", padding: "5px", marginTop: "20px"}}>*เป็นไปตามเงื่อนไขที่บริษัทฯ กำหนด</p>
             </div>
           </div>
         </div>

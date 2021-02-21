@@ -2,6 +2,8 @@ import Head from 'next/head'
 import 'semantic-ui-css/semantic.min.css'
 import styles from '../styles/Home.module.css'
 import Sec1Part from '../component/sec1'
+import Sec2Part from '../component/sec2'
+import Sec3Part from '../component/sec3'
 
 export default function Home() {
   return (
@@ -11,9 +13,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div id="sec1" className={styles.sec1}><Sec1Part /></div>
-        <div id="sec2">hi</div>
-        <div id="sec3">hi</div>
+        <div id="sec1"><Sec1Part /></div>
+        <div id="sec2"><Sec2Part /></div>
+        <div id="sec3"><Sec3Part /></div>
       </main>
 
       <footer className={styles.footer}>
